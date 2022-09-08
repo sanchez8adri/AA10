@@ -30,7 +30,7 @@ public class MuestraHora {
 					informacionString.append(sn.nextLine());
 				}
 				JSONObject json = new JSONObject(informacionString.toString());
-				System.out.println(json.getString("title")+":\n"+json.get("today"));
+				System.out.println(informacionString.toString());
 			}
 			
 		} catch (IOException e) {
