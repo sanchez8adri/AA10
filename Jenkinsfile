@@ -14,7 +14,7 @@ pipeline
 					println sdf.format(date)
 					
 					def dt = LocalDateTime.now()
-					println dt
+					println dt.format(date)
 				}
 			}
 		}
