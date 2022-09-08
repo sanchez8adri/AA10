@@ -1,3 +1,4 @@
+import java.text.SimpleDateFormat
 pipeline
 {
 	agent any
@@ -5,8 +6,10 @@ pipeline
 	{
 		stage('Pre build')
 		{
-			steps{
-				echo "hola mundo"
+			script{
+				def date = new Date()
+				def sdf = new SimpleDateFormat("MM/dd/yyyy")
+				println sdf
 			}
 		}
 	}
