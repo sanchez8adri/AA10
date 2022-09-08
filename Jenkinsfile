@@ -6,10 +6,12 @@ pipeline
 	{
 		stage('Fecha')
 		{
-			script{
-				def date = new Date()
-				def sdf = new SimpleDateFormat("MM/dd/yyyy")
-				println sdf
+			steps{
+				script{
+					def date = new Date()
+					def sdf = new SimpleDateFormat("MM/dd/yyyy")
+					println sdf
+				}
 			}
 		}
 	}
