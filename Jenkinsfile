@@ -4,7 +4,7 @@ pipeline
 	agent any
 	stages
 	{
-		stage('Pre build')
+		stage('Fecha')
 		{
 			script{
 				def date = new Date()
