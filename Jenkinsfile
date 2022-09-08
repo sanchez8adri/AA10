@@ -24,7 +24,7 @@ pipeline
 				    	def day = calendar.get(Calendar.DAY_OF_WEEK);
 					
 					if(day == 5){
-						println "¿Qué le dice un .GIF a un .JPEG? -Anímate viejo"
+						println "¿Que le dice un .GIF a un .JPEG? -Animate viejo"
 					}
 				}
 			}
@@ -40,7 +40,7 @@ pipeline
 				    	def day = calendar.get(Calendar.DAY_OF_WEEK);
 					
 					if(day == 6){
-						println "-Podriamos tener otro niño. \n-Sí, a mi tampoco me gusta el que tenemos"
+						println "-Podriamos tener otro niño. -Si, a mi tampoco me gusta el que tenemos"
 					}
 				}
 			}
@@ -55,7 +55,7 @@ pipeline
 				    	def day = calendar.get(Calendar.DAY_OF_WEEK);
 					
 					if(day == 2){
-						println "-¿Cómo se llama el peor jugador japonés? -Nikito Nitoko."
+						println "-¿Como se llama el peor jugador japones? -Nikito Nitoko."
 					}
 				}
 			}
@@ -70,7 +70,7 @@ pipeline
 				    	def day = calendar.get(Calendar.DAY_OF_WEEK);
 					
 					if(day == 3){
-						println "Dos amigos hablando: -¿A quién le vas a votar en las próximas elecciones? -Yo, a Alibabá y los 40 ladrones. -¿Y éso? -Para asegurarme que solo sean 40."
+						println "Dos amigos hablando: -¿A quien le vas a votar en las proximas elecciones? -Yo, a Alibaba y los 40 ladrones. -¿Y eso? -Para asegurarme que solo sean 40."
 					}
 				}
 			}
