@@ -24,7 +24,7 @@ pipeline
 				    	def day = calendar.get(Calendar.DAY_OF_WEEK);
 					
 					if(day == 5){
-						println "¿Que le dice un .GIF a un .JPEG? -Animate viejo"
+						println "Que le dice un .GIF a un .JPEG? -Animate viejo"
 					}
 				}
 			}
