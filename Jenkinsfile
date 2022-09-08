@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat
+import java.time.LocalDateTime
 pipeline
 {
 	agent any
@@ -11,6 +12,9 @@ pipeline
 					def date = new Date()
 					def sdf = new SimpleDateFormat("MM/dd/yyyy")
 					println sdf.format(date)
+					
+					def dt = LocalDateTime.now()
+					println dt
 				}
 			}
 		}
