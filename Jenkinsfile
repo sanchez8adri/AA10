@@ -13,8 +13,10 @@ pipeline
 					def sdf = new SimpleDateFormat("MM/dd/yyyy")
 					println sdf.format(date)
 					
-					def dt = LocalDateTime.now()
-					println dt.format(date)
+					Calendar calendar = Calendar.getInstance();
+				    	calendar.setTime(date);
+				    	def day = calendar.get(Calendar.DAY_OF_WEEK);
+					println day
 				}
 			}
 		}
