@@ -1,9 +1,7 @@
 pipeline
 {
 	agent any
-
 	stages
-
 	{
 		stage('Pre build')
 		{
@@ -12,5 +10,4 @@ pipeline
 			}
 		}
 	}
-
 }
